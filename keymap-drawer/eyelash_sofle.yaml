@@ -13,7 +13,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: \, s: '|'}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: \, s: '|'}
   - '1'
   - A
   - S
@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '`', s: '~'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-option$$
@@ -61,9 +61,9 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '2'
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '2'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   '1':
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -191,7 +191,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
